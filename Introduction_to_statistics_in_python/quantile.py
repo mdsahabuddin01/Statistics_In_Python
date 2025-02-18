@@ -11,7 +11,6 @@ plt.show()
 food_consumption[food_consumption["food_category"] =="eggs"]['co2_emission'].hist()
 plt.show()
 
-
 # Calculate the quartiles of co2_emission
 print(np.quantile(food_consumption["co2_emission"], [0, 0.25, 0.5, 0.75, 1]))
 
