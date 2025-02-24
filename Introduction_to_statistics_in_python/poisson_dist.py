@@ -1,3 +1,12 @@
+"""
+Import poisson from scipy.stats and calculate the probability that Amir responds to 5 leads in a day, given that he responds to an average of 4.
+Amir's coworker responds to an average of 5.5 leads per day. What is the probability that she answers 5 leads in a day?
+What's the probability that Amir responds to 2 or fewer leads in a day?
+What's the probability that Amir responds to more than 10 leads in a day?
+
+"""
+
+
 # Import poisson from scipy.stats
 from scipy.stats import poisson
 
